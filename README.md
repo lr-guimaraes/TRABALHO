@@ -2,7 +2,7 @@
 
 ## Desenvolvidores
     -Leandro Ricardo Guimarães
-    - Bruna Glisele
+    - Bruna Glislere
 
 ## Requesistos do projeto 
 
