@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    <!--Arquivo CSS-->
+        <link rel="stylesheet" href="css/Estilo_PaginaInicial.css" />
+    <!--Estilo de fontes-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+    <script type="text/javascript" src="JS/JS_produtosjs"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+    </style>
+    <!--Icones-->
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        
+        <input type="checkbox" id="chec" class="Desing_logo">
+            <label for="chec">
+                <img src="img/menu.png">
+            </label>
+
+            <nav>
+                <ul>
+                    <li><a href="Pagina_inicial.html"> HOME </a> </li>
+                    <li><a href="login.html">login</a></li>
+                    <li><a href=""> História </a></li>
+                    <li><a href=""> Perguntas frequentes </a> </li>
+                    <li><a href="Feedback.html"> Feedback </a> </li>
+                </ul>
+            </nav>
+                <!--<img class ="Desing_logo" src="img/logo.png" />-->
+            <div align="right" class="Desing_cabeçario Dark_cabeçario">
+            <div class="Desing_MensagemCativa" align="center">
+                <p>Agro<span style="color: rgb(14, 143, 31);">MAQ</span></p>
+            </div>
+            
+                <!--Icone de busca-->
+                <input type="text" >
+                <button><span class="material-icons-outlined">search</span></button>                   
+                <span class="material-icons-outlined">person</span>
+                
+                <!--Icone carrinho de compras-->
+                <button><span class="material-icons-outlined" id= "compra" onclick="location.href='compras.html'">local_grocery_store</span></button>
+            </div>      
+        </div>
+            <div align="center" class=" Desing_MensagemCativar Dark_Fundo1">
+                <div  >
+                    <p>O melhor em máquinas <br> e equipamentos</p>
+                </div>
+                <div>
+                    <br>
+                    <button  class="Desing_botaoCadastrar" onclick="location.href='cadastro.html'">Cadastrar</button>
+                </div>
+            </div>
+        <div class="Backgrond_Produtos "> <!--Produtos-->  
+            <div  class="Desing_centralizar Desing_titulo">
+                <h3>Produtos mais vendidos<h3>
+            </div>
+            <div align="center">
+                <table>
+                    <tr>
+                        <input type="value" id="entrada">
+                        <td>
+                            <div class ="Desing_produto " ><!--produto 1-->
+                                <div>
+                                    <param  value="Trator" id="prod1">Trator</param>
+                                    
+                                </div>
+                                    <img src="img/trator.jpg"/>
+                                <div>
+                                    <p ><font color="#cc0707">R$ 660.000</font></p>
+                                </div>
+                                    <div>
+                                        <p >loja</p>
+                                    </div>
+                                <div>
+                                    <button class="Desing_botaoComprar" id="btn1" onclick="prod1();">Comprar</button>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class ="Desing_produto "><!--prduto 1-->
+                                <div> 
+                                    <param  value="Colheitadeira" id="prod2">Colheitadeira</param>
+                                </div>
+                                    <img src="img/colheitadeira.jpg"/>
+                                <div>
+                                    <p ><font color="#cc0707">R$90.000</font></p>
+                                </div>
+                                <div>
+                                    <p >loja</p>
+                                </div>
+                                <div>
+                                    <button class="Desing_botaoComprar" id="btn2" onclick="prod2();">Comprar</button>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class ="Desing_produto "><!--prduto 1-->
+                                <div> 
+                                    <param  value="Esteira" id="prod3">Esteira Metálica</param>
+                                </div>
+                                    <img src="img/esteira.jpg"/>
+                                <div>
+                                    <p><font color="#cc0707"> R$20.000 </font></p>
+                                </div>
+                                <div>
+                                    <p>loja</p>
+                                </div>
+                                <div>
+                                    <button class="Desing_botaoComprar" id="btn3" onclick="prod3();">Comprar</button>
+                                    
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table> 
+            </div>
+            
+            <div align="center">
+                <button class="Botao_Produtos"  onclick="location.href='Produtos.html'">Ver mais</button>
+            </div>
+        </div>
+            
+        <div align="center" >
+            <!--Depoimentos dos clientes-->
+            <div>
+                <h3><span style="color: white;">Sobre a empresa</span> <h3>
+            </div>
+            <div class="Desing_video">
+                <iframe width="727" height="409" src="https://www.youtube.com/embed/EE-4GvjKcfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="Desing_info">
+            <div align="left" class="Desing_info">
+                <p>Endereço: Rua 7 de setembro, Curitiba - PR</p>
+                <p>Contato:(41) 3333-3333   (41) 99999-9999</p>         
+                
+            </div>
+            <div>
+                <div align="center"><!--redes sociais-->
+                    <button><img class="Desing_imagensRedes"
+                        src="img/instagram.png" /></button>
+                    <button><img class="Desing_imagensRedes"
+                        src="img/facebook.png" /></button>
+                    <button><img class="Desing_imagensRedes"
+                        src="img/ln.png" /></button>
+                </div>
+            </div>
+        </div>
+
+        
+        
+    </body>
+</html>
