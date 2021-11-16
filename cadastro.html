@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href = "css/estilo_cadastro.css">
+        <link rel="stylesheet" href="css/Estilo_PaginaInicial.css" />
+        <!--ARQUIVOS JS-->
+        <script type="text/javascript" src="JS/JS_cadastro.js"></script>
+        <!--Desing letras -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div>
+            <input type="checkbox" id="chec">
+                <label for="chec">
+                    <img src="img/menu.png">
+                </label>
+                <nav>
+                    <ul>
+                        <li><a href="Index.html"> HOME </a> </li>
+                        <li><a href="login.html">login</a></li>
+                        <li><a href=""> História </a></li>
+                        <li><a href=""> Perguntas frequentes </a> </li>
+                        <li><a href="Feedback.html"> Feedback </a> </li>
+                    </ul>
+                </nav>
+                <p> </p>
+                <div align="right" class="Desing_cabeçario Dark_cabeçario">
+                <div class="Desing_MensagemCativa" align="center">
+                    <p>Agro<span style="color: rgb(14, 143, 31);">MAQ</span></p>
+                </div>
+                <!--Icone de busca-->
+                
+                <button><span class="material-icons-outlined">search</span></button>                   
+                <span class="material-icons-outlined" onclick="location.href='login.html'">person</span>
+                
+                <!--Icone carrinho de compras-->
+                <button><span class="material-icons-outlined" id= "compra" onclick="location.href='compras.html'">local_grocery_store</span></button>
+            </div>              
+        </div>
+        <div align = "center" class="Fundo">
+            <div>
+                <table align="center" class="tabela">
+                    <tr align="center">
+                        <td>
+                            <h2>Bem vindo! Se esse é o seu primeiiro acesso<br>preencha os campos</h2>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <input class = "campo" type = "text" placeholder="Nome"id ="nome" required>
+                            <span ></span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <input class = "campo" type = "text" placeholder="Sobrenome" id = "sobrenome" required>
+                            <span></span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <input class = "campo" type = "text" placeholder = "Matricula" id= "matricula" required>
+                            <span ></span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <input class = "campo " type = "text" placeholder="Usuário" id="usuario" required>
+                            <span></span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <input class = "campo " type = "text" placeholder="Endereço" id= "endereço"required>
+                            <span></span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <input class = "campo" type = "password" placeholder= "Senha" id = "senha" required minlength="8">
+                            <span id="ok"></span>
+                        </td>
+                    </tr>
+                    <tr align="center"> 
+                        <td>
+                            <p>Já possui conta? Click aqui: <button class="login" onclick="location.href='login.html'">Fazer Login</button></p>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <button class="botaoSalvar" onclick="cad();">Salvar</button>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <button class="Voltar" onclick="location.href='Index.html'">Voltar</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
