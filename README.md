@@ -11,4 +11,4 @@
 - Armazenamento dos dados utilizando LocalStorange
 
 ## Link de acesso ao site
-https://lr-guimaraes.github.io/TRABALHO/Pagina_inicial.html
+https://lr-guimaraes.github.io/TRABALHO/Index.html
