@@ -1,0 +1,269 @@
+/*desing*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgb(119, 146, 116);
+}
+
+ul{
+    list-style: none;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+nav{
+    background-color: rgba(16,16,16,.5) ;
+    width: 300px;
+    height: 100%;
+    left: -300px;
+    position: absolute;
+    transition: all .4s;
+}
+
+ul{
+    background: transparent;
+    top: 65px;
+    position:absolute;
+    width: 100%;
+}
+
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(300px);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 5px;
+}
+
+a:hover{
+    background-color: rgb(255, 123, 0);
+    color:#030303;
+}
+
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+table img{
+    background-position: 0%;
+    width: 400px;
+    height: 300px;
+    border-radius: 3px;
+}
+
+p img{
+    margin: 0%;
+    padding: 0%;
+}
+ 
+.Desing_cabeçario{
+    width: 100%;
+    height: 65px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.Desing_menu{
+    width: 863px;
+    height: 60px;
+   
+    border: none;
+}
+
+.Desing_logo{
+    width: 30px;
+    height: 40px;
+    margin-left: 80px;
+    margin-bottom:0% ;
+    margin-top: 0%;
+    padding: none;
+}
+.Desing_opcoes{
+    width: 500px;
+    height: auto;
+    font-size: auto;
+    text-align: center;
+    border: none;
+}
+.Desing_Compra{
+    align-items: flex-end;
+
+}
+.Desing_centralizar{
+    height: auto;
+    align-items: center;
+    text-align: center;    
+}
+
+.Desing_MensagemCativar{  
+    font-size: 50px;
+    color: white;
+    width: 100%;
+    border: none;
+}
+
+.Desing_botaoCadastrar{
+    font-family: 'Anton', sans-serif;
+    background-color:transparent!important;
+    color:#fff;
+    border:solid 5px;
+    border-color: #fff;
+    margin: 30px;
+    width: 289px;
+    height: 55px;
+    border-radius: 48px;
+    font-size: large;
+}
+
+.Desing_botaoCadastrar:hover{
+    background-color:transparent !important;
+    border-color: #fff;
+    width: 292px;
+    height: 57px;
+    border-radius: 50px;
+    
+}.Desing_titulo{
+    color:black;
+    
+    padding: 10px;
+}
+
+.Backgrond_Produtos{
+    background-color: rgb(221, 218, 218);
+    width: 100%;
+}
+
+.Produtos{
+    border: 2px;
+    border-color: gray;
+    width: 100%;
+}
+.Desing_produto{
+    background-color: rgb(235, 231, 231);
+    color:#030303;
+    border: 5px;
+    border-color:black;
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+}
+.Desing_botaoComprar{
+    background-color: rgb(25, 165, 79);
+    border-radius: 10px;
+    color: #fff;
+    width: 68px;
+    height: 28px;
+    border: none;
+}
+.Desing_botaoComprar:hover{
+    background-color: rgb(25, 165, 79);
+    border-radius: 10px;
+    color: #fff;
+    width: 72px;
+    height: 31px;
+    border: none;
+}
+
+.Botao_Produtos{
+    background-color: rgb(255, 123, 0) ;
+    color:#fff;
+    border:none;
+    width: 230px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: large;
+    border-top: none;
+    text-align: center;
+    padding: 5px;
+    margin: 9px !important;
+}
+.Botao_Produtos:hover{
+    width: 250px;
+    height: 53px;
+}
+.Dark_Fundo1{
+    background-image:url("../img/imagemprincipal.jpg");
+    padding-bottom: 20px;
+    width: 100%;
+    height:  auto;
+    background-size: cover;
+}
+.Desing_video{
+    padding-top: 15px;
+    padding-bottom: 30px;    
+    width: 863px;
+}
+.Desing_info{
+    font-size: 20px;
+    color: #fff;
+    background-color:#030303;
+    width: 100%;
+
+}
+.Desing_imagensCabeçario{/*fundo tranparente*/
+    width: 35px; 
+    height: 35px;
+    background-color: transparent;
+}
+.Desing_imagensRedes{/*fundo tranparente*/
+    width: 25px; 
+    height: 25px;
+    background-color: transparent;
+    margin: 0%;
+}
+/*Dark mode*/
+.darkMode{
+    background-color: rgb(39, 38, 38)!important;
+    width: 863px;
+    color: #fff;
+}
+
+.Dark_cabeçario{
+    background-color: black;
+    color: #fff;
+    font-size: larger;
+    border-color: dimgray;
+}
+
+.Dark_menu{
+    background-color: #232424;
+    color: #fff;
+}
+
+.Dark_opcoes{
+    background-color: rgb(59, 59, 59);
+    color: #fff;
+}
+
+.dark_video{
+    background-image: #232424;
+}
+
+.Dark_infoBotao{
+    color: #fff !important;
+    border: none !important;
+    background-color:#030303 ;
+}
+
+.Dark_infoBotao:hover{
+    color: rgb(1, 182, 214) !important;
+}
+
+

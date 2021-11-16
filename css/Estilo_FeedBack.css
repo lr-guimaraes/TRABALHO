@@ -1,0 +1,74 @@
+.Tamanho{
+    width: 100%;
+ }
+
+
+.Desing_menu{
+    width: 863px;
+    height: 60px;
+   
+    border: none;
+}
+.Desing_logo{
+    width: 50px;
+    height: 45px;
+}
+.Desing_opcoes{
+    width: 500px;
+    height: auto;
+    font-size: auto;
+    text-align: center;
+    border: none;
+}
+.Desing_Compra{
+    align-items: flex-end;
+
+}
+
+.campo_FeedBack{
+    width: 500px;
+    height: 100px;
+    padding: 15px;  
+    border: solid 3px rgb(253, 173, 0);
+    border-radius: 7px;
+    font-family:Arial;
+    margin-top:3px;
+    background-color:#fff ;
+}
+
+.tema{
+    background-color: rgb(168, 214, 97)!important;
+    color: #fff;
+   
+}
+.tabela{
+    margin-top:35px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.Dark_menu{
+    background-color: #232424;
+    color: #fff;
+
+}
+.Dark_opcoes{
+    background-color: rgb(59, 59, 59);
+    color: #fff;
+}
+
+.BotaoEnviar{
+    background-color: #088A68;
+    color: white;
+    width:  200px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.BotaoEnviar:hover{
+    background-color: #04B486;
+    color:white
+}
